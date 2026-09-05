@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "blog",
 ]
 
 MIDDLEWARE = [
@@ -123,5 +124,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+<<<<<<< HEAD
 MEDIA_URL = '/media/'
 MEDIA_ROOT = Path(BASE_DIR / 'media')
+=======
+>>>>>>> c406e671fd2befe08a7a3be929163e0380ce6a20
